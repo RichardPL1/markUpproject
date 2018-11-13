@@ -1,0 +1,178 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8" />
+        <link rel="stylesheet" type="text/css" href="playground.css">
+        <title>Boxes</title>
+    </head>
+    <body>
+         <div class='head-box'> 
+            <div class='head-box-text'>
+                    <img id='plane1' src="images/plane.png" alt="plane"><!--for images to work, you have to have the image archived in the same folder as the html & css files.-->
+                    <h3 id='h3'>NYC > REK</h3>
+                    <h4>Aug 15 - 19</h4>
+            </div>
+        </div>  
+        <div class='head-box2'>
+            <ul class='menu1'>
+                <li><input class='l1' type='text'/></li>
+                <li><input class='l2' type='text'/></li>
+                <img src="#" id='calender'>
+                <div class='calender-search'>
+                    <li><input class='leaving-returning'type='date'/></li>
+                    <li><input class='leaving-returning'type='date'/></li>
+                    <li><input class='how-long'type='text'/></li>
+                    
+                    <li><input class='searchbox1' value='search' type='button'/></li>
+                </div>
+            </ul>
+        </div>
+        <div class='body-box'>
+            <div class='box1'>                 <!--FIRST BOX ON LEFT SIDE-->
+                 <div class='box1-items'>
+                     <div class='price-alert'>
+                         <div class='price-text'>
+                             <ul>
+                                 <li>Price alert</li>
+                                 <li>fare charts</li>
+                                 <li>airline fees</li>
+                             </ul>
+                             <p id='Flex-dates'>Flex dates: &plusmn; 3 days<span id='span'> &nbsp;| &nbsp;</span> Explorer</p>
+                         </div>
+                        
+                     </div>
+                     <div class='price-trend'>
+                         <h1>Price Trends</h1>
+                         <img id="linechartimage" src='images/Line_chart.png' alt='chart'/>
+                         <div class='advice'>
+                         <div>advice: wait &nbsp;</div>
+                         <div>confidence: 79%</div>
+                        </div>
+                        <p id='prices-may'>Prices may fall within 7 days</p>
+
+                     </div>
+                     <div class='stops'>
+                         <ul id='Stops-list'>Stops
+                             <li id='box1-list1'><input type='checkbox'>nonstop</li>
+                             <li id='box1-list1'><input type='checkbox'>1 stop</li>
+                             <li id='box1-list1'><input type='checkbox'>2+ stops</li>
+                         </ul>
+                         <ul id='stops-prices'>
+                             <li>$863</li>
+                             <li>$1000</li>
+                             <li>$2731</li>
+                         </ul>
+                     </div>
+                     <div class='times'>
+                         <h2 id='box-1-times'>Times</h2>
+                         <p id='box-1-take-off'>Take-off New York</p>
+                         <p>Tuesday 2pm - Wednesday 12am</p>
+                     </div>
+                     <div class='airports'></div>
+                                                 <!--SECOND BOX-->
+                 </div>
+            </div>
+        <div class='box2'><!--purple box, will have many divs-->
+            <div class='flights-box'><!--nest-->
+                <div class='flights-box-text'>
+                    <b class='actual-text'>15 of 64 flights</b>
+                    <h1 id='show-all'>show all</h1>
+                    <h1 id='sort-price'>Sort by price (low to high)</h1>
+                </div>
+            </div>
+            <div class='check-rates-box'>
+                <div class='check-button'> <!--nest-->                   
+                    <b id='check-rates'>Check Rates</b>
+                    <input class='searchbox1' id='searchbox2' type='button' value='Select'/>
+                </div>
+                <div class='faster-save'> <!--nest-->
+                    <p id='faster-flights'>Faster Flights. More Legroom. 2 Bags Free.</p>
+                    <p id='save-time'>Save time and money with Iceland air on your way to <br> Reykjavik</p>
+                    <p id='icelandair'>Icelandair.us</p>
+                </div>
+            </div>
+            <div class='check-rates-box' id='white-box'><!--#1-->
+                <div class='flight-plans'>
+                    <!--copied, edit this to make it new,then replicate-->                   
+                    <b id='check-rates'>$863</b>
+                    <p id='kayak'>Kayak</p>
+                    <input class='searchbox1' id='searchbox2' type='button' value='Select'/>
+                </div>
+                <div class='icelandic'> 
+                    <div class='icelandimage'>
+                        <img src='images/icelandair.jpeg'> 
+                    </div><!--copied.edit this with detail, then replicate-->
+                    <p id='faster-flights'><b>Icelandair</b></p>
+                    <br>
+                    <p id='times'>JFK <b>2:10p</b>> KEF <b>11:40a</b>5h 30m  nonstop</p>
+                    <p id='times'>KEF <b>10:30a</b>> JFK <b>12:25</b> 5h 30m  nonstop</p>
+                    <div class='iceland-menu'>
+                        <input class='iceland-buttons' type='button' value='Details'>
+                        <input class='iceland-buttons' type='button' value='Fares'>
+                    </div>
+                    
+                    
+                </div>
+                <div class='bottom-right'>
+                    <p id='economy'>Economy</p>
+                <p id='economy1'>Icelandair operates flight 612, 613</p>
+                </div>
+            </div> 
+            <div class='check-rates-box' id='white-box'> <!--2COPY,PASTE START HERE-->
+                    <div class='flight-plans'> <!--copied, edit this to make it new,then replicate--> 
+                        <!--copied.edit this with detail, then replicate-->                  
+                        <b id='check-rates'>$863</b>
+                        <p id='kayak'>Kayak</p>
+                        <input class='searchbox1' id='searchbox2' type='button' value='Select'/>
+                    </div>
+                    <div class='icelandic'> <!--copied.edit this with detail, then replicate-->
+                        <div class='icelandimage'>
+                                <img src='images/icelandair.jpeg'> 
+                        </div>
+                        <p id='faster-flights'><b>Icelandair</b></p>
+                        <br>
+                        <p id='times'>EWR <b>8:45p</b>> KEF <b>6:15a</b>5h 30m  nonstop</p>
+                        <p id='times'>KEF <b>10:30a</b>> JFK <b>12:25</b> 5h 30m  nonstop</p>
+                        <div class='iceland-menu'>
+                            <input class='iceland-buttons' type='button' value='Details'>
+                            <input class='iceland-buttons' type='button' value='Fares'>
+                        </div>
+                        
+                        
+                    </div>
+                    <div class='bottom-right'>
+                        <p id='economy'>Economy</p>
+                    <p id='economy1'>Icelandair operates flight 622, 613</p>
+                    </div>
+            </div>  
+            <div class='check-rates-box' id='white-box'> <!--3COPY,PASTE START HERE-->
+                <div class='flight-plans'> <!--copied, edit this to make it new,then replicate-->                   
+                    <b id='check-rates'>$863</b>
+                    <p id='kayak'>Kayak</p>
+                    <input class='searchbox1' id='searchbox2' type='button' value='Select'/>
+                </div>
+                <div class='icelandic'> <!--copied.edit this with detail, then replicate-->
+                    <div class='icelandimage'>
+                            <img src='images/icelandair.jpeg'> 
+                        </div>
+                    <p id='faster-flights'><b>Icelandair</b></p>
+                    <br>
+                    <p id='times'>JFK <b>8:40p</b>> KEF <b>6:15a</b>5h 30m  nonstop</p>
+                    <p id='times'>KEF <b>10:30a</b>> JFK <b>12:25p</b> 5h 30m  nonstop</p>
+                    <div class='iceland-menu'>
+                        <input class='iceland-buttons' type='button' value='Details'>
+                        <input class='iceland-buttons' type='button' value='Fares'>
+                    </div>
+                    
+                    
+                </div>
+                <div class='bottom-right'>
+                    <p id='economy'>Economy</p>
+                <p id='economy1'>Icelandair operates flight 623, 613</p>
+                </div>
+        </div>   
+            
+        </div>
+        </div>
+         
+    </body>

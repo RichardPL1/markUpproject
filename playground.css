@@ -1,0 +1,360 @@
+.body-box {
+    display:flex;
+
+}
+
+.head-box {
+    background-color: rgb(214, 214, 214);
+    height:70px;
+    width:85rem;
+    display:flex;
+    flex-direction:row;
+
+}
+.head-box-text {
+    font-size: 10px;
+    background-color: rgb(238, 238, 238);
+    display:flex;
+    flex-direction:row;
+    align-items: flex-end;
+    width:7rem;
+    height:4rem;
+    padding-right: 10px;
+    padding-bottom: 7px;
+    padding-left:20px;
+}
+#plane1 {
+    display:flex;
+    padding-right:10px;
+    padding-bottom:20px;
+}
+
+.head-box2 {
+ display:flex;
+ height:5rem;
+ width:85rem;
+ background-color: rgb(238, 238, 238);
+} 
+.menu1 {
+    display:flex;
+    flex-direction:row;
+    list-style:none;
+    justify-content: center;
+    height: 4rem;
+    width:100%;
+    margin-top:30px;
+}
+.l1 {
+    font-size: 2rem;
+    display:flex;
+    height:2rem;
+    width: 20rem;
+    margin-top:4px;
+    margin-left:3rem;
+
+}
+.l2 {
+    font-size: 2rem;
+    height:2rem;
+    display:flex;
+    width: 20rem;
+    margin-top:4px;
+
+}
+#calender {
+    display:flex;
+    margin-top:10px;
+}
+.how-long {
+    font-size:2rem;
+    height:30px;
+    display:flex;
+    width: 10rem;
+    margin-top:4px;
+}
+.calender-search {
+    display:flex;
+    flex-direction:row;
+}
+.leaving-returning {
+    display:flex;
+    height:2rem;
+    margin-top:4px;
+}
+.searchbox1 {
+    font-size: 25px;
+    color:white;
+    background-color: rgb(245, 100, 47);
+    height:37px;
+    width: 10rem;
+    justify-content: center;
+    margin-top:4px;
+
+}
+
+
+.box1 {                         /*BOX 1 TO THE LEFT*/
+    
+    display :flex;
+    height :1000px;
+    width :330px;
+    flex :wrap;
+} 
+.box1-items {
+    background-color: rgb(221, 221, 221);
+}
+.box-items {
+    display:flex;
+    flex-direction:column;
+}
+.price-alert {
+    display:flex;
+    flex-direction: column;
+    word-spacing:50px;
+    width:325px;
+    height: 200px;
+    flex-wrap: wrap;
+    font-size:20px;
+    padding-left:5px;
+    padding-top:10px;
+    
+
+}
+.price-text {
+    color:blue;
+    word-spacing: normal;
+    display:flex;
+    flex-direction:column;
+    text-decoration-style: dotted;
+    padding-bottom: 5px;
+    height:6rem;
+    width: 20rem;
+}
+#Flex-dates {
+    display:flex;
+    flex-direction:row;
+    padding-left:10px;
+   
+}
+
+span {
+    color: grey;
+}
+
+.price-trend {
+    height:200px;
+    width:200px;
+    padding-left:10px;
+}
+#linechartimage {
+    display:flex;
+    width:300px;
+    height:100px;
+    padding-left:10px;
+}
+.advice {
+    display:flex;
+    flex-direction:row;
+    padding-bottom:1px;
+    padding-left:10px;
+    width:20rem;
+    font-weight:bold;
+}
+#prices-may {
+    display:flex;
+    margin-top:0px;
+    padding-left:10px;
+    color:gray;
+
+}
+.stops {
+    
+    height:200px;
+    display:flex;
+    width: 20rem;
+
+}
+#Stops-list {
+    display:flex;
+    list-style:none;
+    font-weight:bold;
+    flex-direction:column;
+    width:7rem;
+    height:7rem;
+    padding-left:20px;
+}
+#box1-list1 {
+    font-weight: normal;
+    
+}
+#stops-prices {
+    display:flex;
+    flex-direction:column;
+    width:10rem;
+    height:4.5rem;
+    justify-content:flex-end;
+    padding-left:5rem;
+} 
+
+.times {
+    display:flex;
+    flex-direction:column;
+    padding-left: 10px;
+}
+#box-1-times {
+    font-weight: bold;
+}
+#box-1-take-off {
+    font-weight: bold;
+}
+.box2{
+    /*Main big Box*/
+    display:flex;
+    flex-direction:column;
+    height:1000px;
+    width:1010px;
+}
+.flights-box {
+    height:70px;
+    width:900px;
+    margin-left:2px;
+    margin-top:2px;
+}
+.flights-box-text {
+    display:flex;
+    flex-direction: row;
+}
+
+
+
+.actual-text {
+    display:flex;
+    flex-direction: row;
+    font-size: 20px;
+    padding:3px;
+    padding-left:3px;
+    word-spacing: normal;
+    margin-top: 19px;
+    padding-left:18px; /*good positioning of '15 of 64 flights*/
+}
+#show-all {
+    font-size:15px;
+    color:rgb(55, 55, 255);
+    margin-top:27px;
+    margin-left:7px;
+
+} /*good positioning, works*/
+#sort-price {
+    display:flex;
+    justify-content: flex-end;
+    font-size: 16px;
+    margin-left:450px;
+    margin-top:29px;
+  
+}/* nice! looks good*/
+.check-rates-box {
+    display:flex;
+    background-color: rgb(238, 238, 238);
+    flex-direction:row;
+    word-spacing: normal;
+}
+.check-button { /*nest*/
+    display:flex;
+    flex-direction:column;
+
+}
+#check-rates {
+    font-size:24px;
+    margin-left:24px;
+    margin-top:20px;
+}
+
+#searchbox2 {
+    margin-left:24px;
+    margin-top:20px;
+
+}
+
+.faster-save { /*nest*/
+    display:flex;
+    flex-direction: column;
+
+
+
+}
+
+#faster-flights {
+    font-size:24px;
+    margin-left:70px;
+    margin-bottom:10px; 
+}
+#save-time {
+    margin-left:70px;
+    margin-bottom: 60px;
+}
+#icelandair {
+    display:flex;
+    flex-wrap: wrap;
+    color:rgb(245, 100, 47);
+    margin-left:70px;
+    display: inline-block;
+    margin-bottom:60px;
+}
+#white-box {
+    background-color:white;
+    margin-bottom:5rem;
+}
+.flight-plans {
+    display:flex;
+    flex-direction:column;
+}
+#kayak {
+    margin-left:25px;
+}
+#times {
+    margin-left:70px;
+
+}
+.icelandic {
+    margin-left:90px;
+    margin-bottom:4rem;
+}
+.icelandimage {
+    display:flex;
+    flex-direction:column;
+    height:2rem;
+    width:2rem;
+}
+
+.icelandimage img {
+    border:solid 1px grey;
+    height:3rem;
+    width:4rem;
+    margin-top:3rem;
+    margin-right:6rem;
+}
+.iceland-buttons {
+    background-color:rgb(231, 231, 231);
+    color:gray;
+    height:25px;
+    width:70px;
+    margin-top:20px; 
+}
+#economy {
+    display:flex;
+    margin-left:230px;
+    margin-top:190px;
+
+}
+#economy1 {
+    display:flex;
+    margin-left:90px;
+    margin-bottom:50px;
+}
+.bottom-right {
+    display:flex;
+    flex-direction:column;
+    color:gray;
+    margin-bottom:70px;
+    padding-bottom: 70px;
+}
